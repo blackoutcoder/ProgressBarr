@@ -15,6 +15,8 @@ namespace ProgressBarr
                 progressBarr.Progress++;
                 
             }
+            Console.WriteLine(" Count ended!");
+
         }
 
         static async Task WriteProgress(ProgressBar progressBar)
